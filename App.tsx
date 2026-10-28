@@ -273,7 +273,7 @@ const styles = StyleSheet.create({
     color: '#1d1d1f',
     elevation: 1,
   },
-  chipsScroll: { flexGrow: 0 },
+  chipsScroll: { flexGrow: 0, flexShrink: 0 },
   chips: { paddingHorizontal: 20, paddingVertical: 14, gap: 10 },
   chip: { paddingHorizontal: 16, paddingVertical: 8, borderRadius: 20, backgroundColor: '#fff' },
   chipActive: { backgroundColor: PURPLE },
